@@ -33,7 +33,6 @@ class _MyAppState extends State<MyApp> {
         print(map);
         if (map != null) {
           var callBack = map['callBack'];
-          ;
 
           //latitude will be retrieved from map['latitude']
           //longitude will be retrieved from map['longitude']

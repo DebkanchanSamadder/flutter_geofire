@@ -97,11 +97,10 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(10.0),
               ),
               Center(
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     setLocation();
                   },
-                  color: Colors.blueAccent,
                   child: Text(
                     "Set Location",
                     style: TextStyle(color: Colors.white),
@@ -112,11 +111,10 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(10.0),
               ),
               Center(
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     setLocationFirst();
                   },
-                  color: Colors.blueAccent,
                   child: Text(
                     "Set Location AsH28LWk8MXfwRLfVxgx",
                     style: TextStyle(color: Colors.white),
@@ -127,11 +125,10 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(10.0),
               ),
               Center(
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     getLocation();
                   },
-                  color: Colors.blueAccent,
                   child: Text(
                     "Get Location AsH28LWk8MXfwRLfVxgx",
                     style: TextStyle(color: Colors.white),
@@ -142,11 +139,10 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(10.0),
               ),
               Center(
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     removeLocation();
                   },
-                  color: Colors.blueAccent,
                   child: Text(
                     "Remove Location AsH28LWk8MXfwRLfVxgx",
                     style: TextStyle(color: Colors.white),
@@ -157,11 +153,10 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(10.0),
               ),
               Center(
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     removeQueryListener();
                   },
-                  color: Colors.blueAccent,
                   child: Text(
                     "Remove Query Listener",
                     style: TextStyle(color: Colors.white),
